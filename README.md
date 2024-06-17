@@ -9,7 +9,7 @@ This project uses three .cpp files to output data that is then used by the highr
 - raytraceForTimes.cpp outputs a .csv file that gives the time taken by each light ray to reach termination starting from the virtual screen.
 - raytraceForLightPaths.cpp outputs .csv files containing the cartesian coordinate positions of the light rays over the course of their simulation
 
- All of these files used should be fairly easy to run from the command line or a Jupyter Notebook. Be sure to allow these files to access the other files in the repository by placing them in the same directory.
+ All of these files used should be fairly easy to run from the command line or a Jupyter Notebook. Be sure to allow these files to access the other files in the repository by placing the .cpp files in the same directory and providing the necessary file paths to the csvs in highres-bh-animation.ipyb.
  
 ## Animations
 
