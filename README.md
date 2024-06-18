@@ -4,10 +4,12 @@ This project uses raytracing to produce an images of the accretion disk of a rot
 
 ## Usage
 
-Three separate .cpp files are used to various output data that is then used by the highres-bh-animation.ipynb to create images and animations.
+Three separate .cpp files are used to various output data that is then used by the .ipynb files to create images and animations.
 - raytraceOverAngles.cpp takes snapshots of the blackhole from various elevations and outputs .csv files representing the light intensity seen at each pixel on the virtual screen.
 - raytraceForTimes.cpp outputs a .csv file that gives the time taken by each light ray to reach termination starting from the virtual screen.
 - raytraceForLightPaths.cpp outputs .csv files containing the cartesian coordinate positions of the light rays over the course of their simulation.
+- highres-bh-animation.ipynb takes .csv files containing light intensities and times taken and produces videos from the perspective of the virtual screen
+- RaytraceTrajectoriesAnimation.ipynb takes .csv files containing light intensities, times, and light paths to produce a video of the ray trajectory for each pixel on the virtual screen 
 
  All of these files used should be fairly easy to run from the command line or a Jupyter Notebook. Be sure to allow the .cpp and .h files to access eachother by placing them in the same directory. It will also be necessary to provide appropriate file paths in highres-bh-animation.ipyb.
  
