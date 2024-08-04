@@ -1,6 +1,6 @@
 # blackhole-raytracing 
 
-This project uses raytracing to produce images of the accretion disk of a rotating black hole. Simulated light rays are projected from a virtual screen toward a virtual black hole according to the Kerr Metric and Boyer-Lindquist coordinates using an implimentation of the rk45dp integration method. The images produced are used to produce animations demonstrating what it would look like to orbit a black hole and the order in which light rays reach the black hole.
+This project uses raytracing to produce images of the accretion disk of a rotating black hole. Simulated light rays are projected from a virtual screen toward a virtual black hole according to the Kerr Metric and Boyer-Lindquist coordinates using an implimentation of the rk45dp integration method. The images produced are used to produce animations demonstrating what it would look like to orbit a black hole and the order in which light rays reach the black hole throughout the raytracing procedure
 
 ## Usage
 
